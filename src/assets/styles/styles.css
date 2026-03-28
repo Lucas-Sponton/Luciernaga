@@ -1,0 +1,6 @@
+.imagenBanner {
+    background-image: url("public/banner-e-commerce.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
