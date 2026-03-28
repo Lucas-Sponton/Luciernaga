@@ -2,8 +2,7 @@ const Banner = () => {
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="col imagenBanner vh-100">
-
+                <div className="col imagenBanner vh-100 my-3">
                 </div>
             </div>
             <div className="row">

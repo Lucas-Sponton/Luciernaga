@@ -1,6 +1,13 @@
 .imagenBanner {
-    background-image: url("public/banner-e-commerce.avif");
+    background-image: url("public/banner-gemini-1.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+}
+
+
+
+.inbox-btn {
+    background-image: url("public/logo-luciernaga-4.png");
+    border: none;
 }
