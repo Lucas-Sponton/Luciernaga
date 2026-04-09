@@ -1,0 +1,23 @@
+$flexbox: (
+    justify: space-evenly,
+    align: center
+);
+
+$colores: (
+    marron: url("public/logo-luciernaga-4.png"),
+    dorado-fondo: url("public/logo-luciernaga-5.png"),
+    dorados: (
+        brillante: #FFD700,
+        suave: #DAA520,
+        oscuro: #B8860B),
+    negro: #000000,
+    cremita1: #FFFDD0,
+    cremita2: #FAEBD7,
+    cremita3: #FDF5E6
+);
+
+
+$imagenes: (
+    banner: url("public/banner-gemini-1.png"),
+    logo: url("public/logo-luciernaga-3.svg"),
+    fondoMarron: url("public/fondo-navbar-2.png"))

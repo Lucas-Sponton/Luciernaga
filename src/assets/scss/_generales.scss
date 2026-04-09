@@ -1,0 +1,38 @@
+
+.imagenBanner {
+    background-image: map-get($imagenes, banner);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+.categorias {
+    background-image: map-get($colores, marron);
+    background-size: contain;
+    border-radius: 40% 20%;
+}
+
+.nav-link.categorias__link--estilos {
+    font-weight: 500;
+    background-image: map-get($colores, dorado-fondo);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &.active {
+        background-image: map-get($colores, dorado-fondo);
+        background-size: cover;
+        background-position: center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 900;
+    }
+}
